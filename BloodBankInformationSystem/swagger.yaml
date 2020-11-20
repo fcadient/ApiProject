@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
   version: final
-  title: AWS project
-  description: 'Team members: Francis Cadiente, Sathish Ravichandran'
+  title: AWS API Project
+  description: 'Team members: Francis Cadiente, Sathish Ravichandran, Rithesh DCruz'
 paths:
   /api/BloodBanks:
     get:
