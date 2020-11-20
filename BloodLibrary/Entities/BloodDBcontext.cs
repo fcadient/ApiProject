@@ -24,11 +24,12 @@ namespace BloodLibrary.Entities
         {
             if (!optionsBuilder.IsConfigured)
             {
-                //optionsBuilder.UseSqlServer("Data Source=relationaldbforawsfinalproject.database.windows.net;Initial Catalog=BloodBankDb;User ID=live;Password=Selvi$123;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-                
-                //optionsBuilder.UseSqlServer("Data Source=DESKTOP-8A87DAT\\MSSQLSERVER01;Initial Catalog=BloodBankDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                //optionsBuilder.UseSqlServer("Data Source=apiproject.crdyaeg8itwh.us-east-2.rds.amazonaws.com;Initial Catalog=BloodBankDb;User ID=admin;Password=Pa55w0rD!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-8A87DAT\\MSSQLSERVER01;Initial Catalog=BloodBankDb;Integrated Security=True;");
+                optionsBuilder.UseSqlServer("Data Source=apiproject.crdyaeg8itwh.us-east-2.rds.amazonaws.com;Initial Catalog=BloodBankDb;User ID=admin;Password=Pa55w0rD!;Connect Timeout=60;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+
+
+                //optionsBuilder.UseSqlServer("Data Source=DESKTOP-8A87DAT\\MSSQLSERVER01;Initial Catalog=BloodBankDb;Integrated Security=True;");
 
             }
         }
