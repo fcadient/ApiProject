@@ -43,8 +43,8 @@ namespace BloodBankInformationSystem
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "AWS project", Version = "final",
-                    Description = "Team members: Francis Cadiente, Sathish Ravichandran",
+                c.SwaggerDoc("v1", new Info { Title = "AWS API Project", Version = "final",
+                    Description = "Team members: Francis Cadiente, Sathish Ravichandran, Rithesh DCruz",
                 });
             });
         }
