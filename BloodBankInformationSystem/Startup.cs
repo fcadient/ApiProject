@@ -16,11 +16,13 @@ using BloodBankInformationSystem.Services;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 
 namespace BloodBankInformationSystem
 {
     public class Startup
     {
+
         private const string Url = "/swagger/v1/swagger.json";
         public Startup(IConfiguration configuration)
         {
@@ -33,8 +35,10 @@ namespace BloodBankInformationSystem
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            
-            services.AddDbContext<BloodLibrary.Entities.BloodDBcontext>();
+
+            services.AddDbContext<BloodLibrary.Entities.BloodDBcontext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DBContext"))
+            ) ;
             services.AddScoped<IBloodBankInfoRepository, BloodBankInfoRepository>();
             services.AddScoped<IBloodStockInfoRepository, BloodStockInfoRepository>();
             services.AddScoped<IPatientInfoRepository, PatientInfoRepository>();
@@ -47,6 +51,8 @@ namespace BloodBankInformationSystem
                     Description = "Team members: Francis Cadiente, Sathish Ravichandran, Rithesh DCruz",
                 });
             });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -78,6 +84,7 @@ namespace BloodBankInformationSystem
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
         }
     }
 }

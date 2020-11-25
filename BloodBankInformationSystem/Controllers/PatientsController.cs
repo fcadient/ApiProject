@@ -9,6 +9,7 @@ using BloodLibrary.Entities;
 using BloodBankInformationSystem.Services;
 using AutoMapper;
 using BloodBankInformationSystem.Models.Patient;
+using Microsoft.AspNetCore.Cors;
 
 namespace BloodBankInformationSystem.Controllers
 {
@@ -42,7 +43,7 @@ namespace BloodBankInformationSystem.Controllers
             var item = _mapper.Map<PatientDto>(results);
             return Ok(item);
         }
-        
+
         // PUT: api/Patients/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPatient(int id, PatientUpdateDto patient)

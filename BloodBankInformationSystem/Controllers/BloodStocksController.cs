@@ -10,6 +10,7 @@ using BloodBankInformationSystem.Services;
 using AutoMapper;
 using BloodBankInformationSystem.Models;
 using BloodBankInformationSystem.Models.BloodStock;
+using Microsoft.AspNetCore.Cors;
 
 namespace BloodBankInformationSystem.Controllers
 {

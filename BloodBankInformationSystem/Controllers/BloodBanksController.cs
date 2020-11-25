@@ -9,6 +9,7 @@ using BloodLibrary.Entities;
 using BloodBankInformationSystem.Models;
 using BloodBankInformationSystem.Services;
 using AutoMapper;
+using Microsoft.AspNetCore.Cors;
 
 namespace BloodBankInformationSystem.Controllers
 {

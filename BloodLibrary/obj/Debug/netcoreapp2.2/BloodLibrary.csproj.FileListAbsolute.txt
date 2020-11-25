@@ -32,3 +32,15 @@ C:\Users\philip\Desktop\BloodBankInformationSystem\BloodBankInformationSystem\Bl
 C:\Users\philip\Desktop\BloodBankInformationSystem\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.dll
 C:\Users\philip\Desktop\BloodBankInformationSystem\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.pdb
 C:\Users\philip\Desktop\BloodBankInformationSystem\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.genruntimeconfig.cache
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\bin\Debug\netcoreapp2.2\BloodLibrary.deps.json
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\bin\Debug\netcoreapp2.2\BloodLibrary.runtimeconfig.json
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\bin\Debug\netcoreapp2.2\BloodLibrary.runtimeconfig.dev.json
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\bin\Debug\netcoreapp2.2\BloodLibrary.dll
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\bin\Debug\netcoreapp2.2\BloodLibrary.pdb
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.AssemblyInfoInputs.cache
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.AssemblyInfo.cs
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.csproj.CoreCompileInputs.cache
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.dll
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.pdb
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.genruntimeconfig.cache
+C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\obj\Debug\netcoreapp2.2\BloodLibrary.csprojAssemblyReference.cache

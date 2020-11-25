@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BloodLibrary</id>
+    <version>1.0.0</version>
+    <authors>BloodLibrary</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.2.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\bin\Release\netcoreapp2.2\BloodLibrary.runtimeconfig.json" target="lib\netcoreapp2.2\BloodLibrary.runtimeconfig.json" />
+    <file src="C:\Users\philip\Desktop\BloodBankInformationSystem\BloodLibrary\bin\Release\netcoreapp2.2\BloodLibrary.dll" target="lib\netcoreapp2.2\BloodLibrary.dll" />
+  </files>
+</package>

@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <StartupObject>BloodBankInformationSystem.Program</StartupObject>
+    <UserSecretsId>85e6c5e7-9343-4e06-8b74-3deadbf78cc1</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
